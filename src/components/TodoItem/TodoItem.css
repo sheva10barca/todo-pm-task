@@ -1,0 +1,28 @@
+.todo {
+   width: 800px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   height: 60px;
+   background: rgb(134, 134, 134);
+   font-weight: bold;
+   margin: 0px 0px 20px 0px;
+}
+
+.todo__status input {
+   height: 15px;
+   width: 15px;
+   margin: 0px 10px 0px 0px;
+}
+.todo__id {
+   min-width: 20px;
+   text-align: center;
+}
+
+.todo__title {
+   width: 150px;
+}
+
+.todo__description {
+   width: 150px;
+}
